@@ -12,6 +12,39 @@
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+
+
+    <style>
+        .grid-container {
+          display: grid;
+          gap: 10px;
+          grid-template-columns: auto auto auto;
+          padding: 10px;
+        }
+        
+        .grid-item {
+          background-color: #ffffff;
+          border: 1px solid #dcd9d9;
+          padding: 10px;
+          text-align: center;
+        }
+
+        @media only screen and (max-width: 1200px){
+            .img_full_width {
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            .full_width {
+                display: table!important;
+                width: 100% !important;
+            }
+            .mid_align {
+                text-align: center!important;
+            }
+        }
+        </style>
+
 </head>
 
 <body>
@@ -31,16 +64,16 @@
                 <a href="#experience">Experience</a>
             </li>
             <li>
-                <a href="#education">Education</a>
+                <a href="#education">Licenses & certifications</a>
             </li>
             <li>
                 <a href="#projects">Projects</a>
+            </li>            
+            <li>
+                <a href="#pskill">Professional Skills</a>
             </li>
             <li>
                 <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
             </li>
         </ul>
     </header>
@@ -50,14 +83,14 @@
         <div id="lead-content">
             <h1>Madalina Apetroaei</h1>
             <h2>Email Developer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
+            <a href="Madalina_Apetroaei_CV.pdf" download class="btn-rounded-white">Download Resume</a>
         </div>
         <!-- End #lead-content -->
 
         <div id="lead-overlay"></div>
 
         <div id="lead-down">
-            <span>
+            <span id="to-bottom">
                 <i class="fa fa-chevron-down" aria-hidden="true"></i>
             </span>
         </div>
@@ -73,9 +106,22 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
+                        As an email developer, I have a thorough understanding of email marketing best practices
+                        and the technical skills to create engaging and effective emails. I have experience designing
+                        and coding emails from scratch, as well as working with email marketing platforms such as
+                        Mailchimp. I am proficient in HTML and CSS, and am comfortable working with BEE Pro drag
+                        and drop email editor.
+                        <br><br>
+                        In my role as an freelancer email developer, I’m responsible for creating and sending weekly
+                        newsletters, promotional emails, and transactional emails. I worked closely with the
+                        marketing team to develop email campaigns that aligned with company goals and brand
+                        standards. I also performed A/B testing to improve email performance and analyzed data to
+                        identify areas for optimization.
+                        <br><br>
+                        In addition to my technical skills, I am a strong communicator and collaborator. I enjoy
+                        working with cross-functional teams to develop email campaigns and have experience
+                        presenting email performance data to stakeholders. I am also detail-oriented and always
+                        ensure that emails are thoroughly tested and optimized for all devices and email clients. 
                     </p>
                 </div>
             </div>
@@ -86,158 +132,189 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
+            <div data-date="March 2020 – Present">
+                <h3>Freelancer</h3>
+                <h4>Email Developer</h4>
+                <ul style="color: #7e8890;">
+                    <li>I create fully responsive pixel-perfect emails and test every email to ensure they
+                        work across all email platforms and mobile devices.</li>
+                    <li>Building campaigns and templates with:
+                        ○ HTML and CSS;
+                        ○ Visual Studio Code;
+                        ○ Mailchimp drag and drop builder;
+                        ○ BEE drag and drop editor;</li>
+                    <li>Development of responsive HTML emails from layered PSD files</li>
+                    <li>Test email rendering for consistency across all email clients (Gmail, Outlook, Mobile,
+                        etc.)</li>
+                    <li>Meet deadlines for content publication</li>
+                    <li>Experience developing email templates</li>
+                    <li>Implemented procedures for testing and troubleshooting of HTML and revised
+                        code and checking the email in Litmus</li>
+                    <li>Passion for creating simple and clean solutions to complex problems</li>
+                    <li>Conduct competitive research and identify best practices for coding architecture as
+                        well as user experiences for all email programs and landing page designs</li>
+                  </ul>
             </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
+            <div data-date="September 2017 – June 2018">
+                <h3>DIGITAL CALYPSO EFECT SRL</h3>
+                <h4>Email Developer</h4>
+                <ul style="color: #7e8890;">
+                    <li>Building emails with HTML and CSS</li>
+                    <li>Using A/B testing</li>
+                    <li>Assisted senior developers with creating and coding email campaigns</li>
+                    <li>Learned best practices for email marketing and coding from senior developers</li>
+                    <li>Conducted quality assurance checks on email campaigns to ensure accuracy and
+                        quality</li>
+                  </ul>
             </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
+            <div data-date="March 2016 – June 2018">
+                <h3>DIGITAL CALYPSO EFECT SRL</h3>
+                <h4>Website Maintenance</h4>
+                <ul style="color: #7e8890;">
+                    <li>Maintenance of websites for selling popular products</li>
+                    <li>Web marketing, search engines optimization (meta tags, keywords, etc.)</li>
+                    <li>Content update</li>
+                    <li>Plugin and theme updates</li>
+                    <li>Relationships with suppliers</li>
+                    <li>Technologies used: WordPress</li>
+                  </ul>
             </div>
+
         </div>
     </div>
     <!-- End #experience -->
 
     <div id="education">
-        <h2 class="heading">Education</h2>
+        <h2 class="heading">Licenses & certifications</h2>
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
+            <h3>Creating a Resposive HTML Email</h3>
+            <h4>LinkedIn</h4>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                Creating a Responsive HTML Email course teaches learners how to design and code visually 
+                appealing email templates using HTML and CSS. The course covers planning, best practices 
+                for coding, responsive design, testing, and troubleshooting. By the end of the course, 
+                learners should be able to create effective email templates that display correctly across 
+                different email clients and devices.
             </p>
         </div>
-        <!-- End .education-block -->
-
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
+            <h3>Introduction in CSS</h3>
+            <h4>LinkedIn</h4>
+            <p>
+                An Introduction to CSS course teaches the basics of using Cascading Style Sheets (CSS) 
+                to style web pages. Topics covered include CSS syntax, styling text, box model, layout, 
+                and responsive design. By the end of the course, learners will have a good understanding 
+                of CSS concepts and techniques to create visually appealing web pages.
+            </p>
+        </div>
+        <div class="education-block">
+            <h3>Creating a Resposive HTML Email</h3>
+            <h4>HTML Essentioan Training</h4>
+            <p>
+                HTML Essential Training is a comprehensive course that covers the fundamentals of HTML, 
+                the programming language used to create web pages. This training is designed for beginners 
+                who are interested in learning the basics of web development and want to gain practical 
+                experience in creating web pages using HTML.
+            </p>
         </div>
         <!-- End .education-block -->
     </div>
     <!-- End #education -->
 
+
     <div id="projects" class="background-alt">
         <h2 class="heading">Projects</h2>
         <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
+            <div class="grid-container">
+                <div class="grid-item img_full_width full_width">
+                    <a href="images/D-Danner.jpg" target="new">
+                     <img src="images/DD-Danner.png" alt="" class="img_full_width" width="300">
+                  </a>
                 </div>
-                <!-- End .project -->
+                <div class="grid-item img_full_width full_width">
+                    <a href="images/D-Hoka.jpg" target="new">
+                     <img src="images/DD-Hoka.png" alt="" class="img_full_width" width="300">
+                  </a>
+                </div>
+                <div class="grid-item img_full_width full_width">
+                    <a href="images/D-Moment.jpg" target="new">
+                     <img src="images/DD-Moment.png" alt="" class="img_full_width" width="300">
+                  </a>
+                </div>
+              </div>
+        </div>
+    </div>
+    <!-- End #about -->
 
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
+    <div id="pskill">
+        <div class="container" style="padding: 50px 0;">
+              
+            <div class="row ">
+                <div class="col-md-4 mid_align">
+                    <h2 class="heading ">Professional Skills</h2>
                 </div>
-                <!-- End .project -->
+                <div class="col-md-8">
+                    <ul style="color: #7e8890;">  
+                        <li>
+                            Proficiency in HTML, CSS, and BEE Pro
+                        </li>
+                        <li>
+                            Experience in Visual Studio Code
+                        </li>
+                        <li>
+                            Experience with email marketing platforms such as Mailchimp
+                        </li>
+                        <li>
+                            Understanding of email marketing best practices
+                        </li>
+                        <li>
+                            Ability to create responsive and optimized emails for all devices and email clients
+                        </li>
+                        <li>
+                            Experience with A/B testing and analyzing email performance data
+                        </li>
+                        <li>
+                            Skills to build design in Canva
+                        </li>
+                        <li>
+                            Strong communication skills, both written and verbal
+                        </li>
+                        <li>
+                            Problem-solving skills and ability to find creative solutions to challenges
+                        </li>
+                        <li>
+                            Ability to manage multiple projects and deadlines simultaneously
+                        </li>
+                        <li>
+                            Adaptability and willingness to learn new skills and technologies
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
-    <!-- End #projects -->
+    <!-- End #about -->
 
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
+    <div id="skills" style="background-color: #3498DB;">
+        <h2 class="heading" style="color:#fff;">Skills</h2>
         <ul>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Visual Studio Code</li>
+            <li>WordPress</li>
+            <li>Canva</li>
         </ul>
     </div>
-    <!-- End #skills -->
-
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
+    <!-- End #skills --> 
 
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; <span id="current-year">2022</span> YOUR NAME
+                        Copyright &copy; <span id="current-year">2023</span> Madalina Apetroaei
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -245,6 +322,7 @@
                         <i class="fa fa-chevron-up" aria-hidden="true"></i>
                     </span>
                 </div>
+                <!--
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
@@ -267,6 +345,7 @@
                         </li>
                     </ul>
                 </div>
+                -->
             </div>
         </div>
     </footer>
